@@ -502,6 +502,23 @@
     p { orphans: 3; widows: 3; }
     li { page-break-inside: avoid; }
   }
+    .overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    backdrop-filter: blur(10px);
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  .message {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+  }
 </style>
 </head>
 <body>
@@ -519,14 +536,14 @@
         <span>dajscamp@naver.com</span>
         <span>서울 서초구 잠원동</span>
         <span>1981년생 (만 45세)</span>
-        <span>최종연봉 7,620만원</span>
-        <span>희망연봉 면접 후 결정</span>
-        <span>이직가능시기 채용 확정 후 4주 (협의 가능)</span>
+        <span>최종연봉: 퍼블릭 비공개 </span>
+        <span>희망연봉: 면접 후 결정</span>
+        <span>이직가능시기: 채용 확정 후 4주 (협의 가능)</span>
       </div>
       <div class="header-tags">
         <span class="tag">서비스기획</span>
         <span class="tag">UI/UX기획</span>
-        <span class="tag">앱기획</span>
+        <!-- <span class="tag">앱기획</span> -->
         <span class="tag">스토리보드</span>
         <span class="tag">이커머스</span>
         <span class="tag">미디어플랫폼</span>
@@ -780,7 +797,7 @@
           <span class="skill-tag highlight">서비스 기획</span>
           <span class="skill-tag highlight">UI/UX 기획</span>
           <span class="skill-tag highlight">스토리보드</span>
-          <span class="skill-tag highlight">앱 기획</span>
+          <!-- <span class="skill-tag highlight">앱 기획</span> -->
           <span class="skill-tag">와이어프레임</span>
           <span class="skill-tag">프로토타이핑</span>
           <span class="skill-tag">정책/기능 정의</span>
@@ -906,5 +923,23 @@
   </div>
 
 </div>
+<!--
+<div class="overlay">
+  <div class="message">🔒 비공개 페이지입니다.
+    <br><br>
+    <a href="./portfolio/" style="
+      display: inline-block;
+      margin-top: 8px;
+      padding: 10px 24px;
+      background: #fff;
+      color: #1a2b4a;
+      font-size: 16px;
+      font-weight: 700;
+      border-radius: 8px;
+      text-decoration: none;
+    ">포트폴리오 이동하기 →</a>
+  </div>
+</div>
+-->
 </body>
 </html>
