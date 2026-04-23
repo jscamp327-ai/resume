@@ -6,6 +6,9 @@
 # 개인정보 포함 임시 작업 폴더 — 공개 레포 업로드 금지
 MyFileTemp/
 
+# HTML에서 생성되는 이력서 PDF 산출물 (로컬 전용)
+이력서.pdf
+
 # Node artifact files
 node_modules/
 dist/
