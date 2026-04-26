@@ -17,8 +17,8 @@
 |----------|------|
 | `index.html` | **한국어 이력서 원본 (편집 주파일)** 겸 GitHub Pages 진입점 |
 | `resume_en.html` | **영어 이력서 원본 (편집 주파일)** |
-| `portfolio.html` | 포트폴리오 페이지 (HTML) |
-| `portfolio_assets/` | 포트폴리오 이미지·리소스 |
+| `portfolio/index.html` | 포트폴리오 페이지 (HTML) |
+| `portfolio/assets/` | 포트폴리오 이미지·리소스 |
 | `MyFileTemp/bak/` | 과거 DOCX·PDF 아카이브 (직접 수정 금지, 참고용) |
 
 ---
@@ -50,9 +50,9 @@
 - 문체: 과거형 액션 동사 시작 (예: "Developed", "Optimized", "Led")
 - 수치·성과를 함께 기술한다
 
-### 포트폴리오 (`portfolio.html`)
+### 포트폴리오 (`portfolio/index.html`)
 - 프로젝트별 섹션으로 구성한다
-- 이미지 리소스는 `portfolio_assets/`에 보관한다
+- 이미지 리소스는 `portfolio/assets/`에 보관한다
 
 ---
 
@@ -75,4 +75,4 @@
 ## 5. 배포
 
 - GitHub Pages를 통해 배포한다 (`index.html`이 진입점)
-- 배포 전 `index.html`, `portfolio.html`, `resume_en.html` 로컬 확인 후 push한다
+- 배포 전 `index.html`, `portfolio/index.html`, `resume_en.html` 로컬 확인 후 push한다
